@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #545353;
+    line-height: 1.6;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+.rishabh {
+    background-color: #469c49;
+    background-image: url(https://t3.ftcdn.net/jpg/03/67/13/74/360_F_367137425_g31biEUjWffxLRph0gMAopequjwSActg.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+}
+.rishabh h1 {
+    font-size: 35px;
+    text-shadow: 5px 2px 3px rgb(50, 162, 36);
+}
+.section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}

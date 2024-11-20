@@ -52,6 +52,15 @@ nav ul li a:hover {
     margin-top: 20px;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.section:hover{
+    max-width: 900px;
+    box-shadow: 0px 0px 10px rgb(42, 44, 44);
+    background-color: #d1dcc8;
+
 }
 h2 {
     color: #4CAF50;
